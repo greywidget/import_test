@@ -3,4 +3,4 @@ def message_one():
 
 
 def message_two():
-    return "A bird in the hand is better than two in the bush (apparently)"
+    return "A bird in the hand is worth two in the bush (apparently)"
