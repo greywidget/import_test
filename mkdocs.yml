@@ -1,6 +1,6 @@
 site_name: A look at imports
 nav:
-  - The Good Stuff: "index.md"
+  - Just Modules: "one.md"
 
 theme:
   name: material
