@@ -4,3 +4,5 @@ import messages
 print(colours.dull())
 
 print(messages.message_two())
+
+print(colours.rainbow())

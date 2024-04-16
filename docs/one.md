@@ -15,7 +15,7 @@ def message_one():
     return "I came from one"
 
 def message_two():
-    return "A bird in the hand is better than two in the bush (apparently)"
+    return "A bird in the hand is worth two in the bush (apparently)"
 ```
 
 ## Our main program
@@ -26,6 +26,7 @@ import messages
 
 print(colours.dull())
 print(messages.message_two())
+print(colours.rainbow())
 
 ```
 
@@ -33,7 +34,8 @@ and this runs fine:
 ``` powershell
 python main.py
 ['beige', 'brown', 'taupe']
-A bird in the hand is better than two in the bush (apparently)
+A bird in the hand is worth two in the bush (apparently)
+['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 ```
 
 ## Can we import individual functions?
@@ -63,7 +65,7 @@ yep, that's fine:
 ``` powershell
 python main.py
 I came from one
-A bird in the hand is better than two in the bush (apparently)
+A bird in the hand is worth two in the bush (apparently)
 
 ```
 
