@@ -76,7 +76,7 @@ A bird in the hand is worth two in the bush (apparently)
 ```
 
 ## What about relative imports
-As `colours` and `messages` are not *packages* we can't do relative imports:
+This doesn't appear to work:
 ``` py title="main.py" hl_lines="1"
 from . import colours
 
@@ -105,3 +105,5 @@ Traceback (most recent call last):
     from .colours import dull
 ImportError: attempted relative import with no known parent package
 ```
+
+You **can** actually import this way, but it involves a discussion about packages. See [packages](two.md)

@@ -1,6 +1,7 @@
 site_name: A look at imports
 nav:
   - Just Modules: "one.md"
+  - Packages: "two.md"
 
 theme:
   name: material
