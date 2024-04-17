@@ -1,7 +1,13 @@
 # Just Modules
 
+``` powershell
+project
+├── colours.py
+├── main.py
+└── messages.py
+```
+
 ## Modules we would like to import
-Using simple modules, you would import like this:
 ``` py title="colours.py"
 def rainbow():
     return "red orange yellow green blue indigo violet".split()
