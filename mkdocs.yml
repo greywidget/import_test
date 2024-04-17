@@ -2,6 +2,7 @@ site_name: A look at imports
 nav:
   - Just Modules: "one.md"
   - Packages: "two.md"
+  - PYTHONPATH: "three.md"
 
 theme:
   name: material
