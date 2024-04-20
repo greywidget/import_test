@@ -34,7 +34,9 @@ print(rainbow())
 print(messages.message_two())
 ```
 
-We can manipulate the *environment variable* `PYTHONPATH` so that running `python -m my_package.main` will work regardless of the directory we are in (i.e. we don't have to be in the parent directory of our package)
+We can manipulate the *environment variable* `PYTHONPATH` to contain our 
+package parent directory so that running `python -m my_package.main` will work 
+regardless of the directory we are in (i.e. we don't have to be in the parent directory of our package)
 
 ### Windows Powershell
 - `$env:PYTHONPATH` to view the current value

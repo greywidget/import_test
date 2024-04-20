@@ -3,6 +3,7 @@ nav:
   - Just Modules: "one.md"
   - Packages: "two.md"
   - PYTHONPATH: "three.md"
+  - Namespace Packages: "four.md"
 
 theme:
   name: material

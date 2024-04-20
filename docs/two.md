@@ -2,7 +2,7 @@
 Packaging seems to be a mixture of the straightforward and the bewildering:
 
 - Namespacing seems to make sense
-- Do you or don't you need `__init__.py` and where?
+- Do you or don't you need `__init__.py`?
 - Is an installed package different to just being in my package project directory?
 
 Lets look at the following simple project structure:
@@ -10,12 +10,16 @@ Lets look at the following simple project structure:
 ``` powershell
 my_project
 └── my_package
+    ├── __init__.py
     ├── colours.py
     ├── main.py
     └── messages.py
 ```
 
-*notice there are no `__init__.py` files*
+*Notice there IS a `__init__.py` file in the `my_package` directory*  
+
+Although it might not be *necessary* to have a `__init__.py` file, it is best to 
+understand the implications. This is discussed in [Namespace Packages](four.md)
 
 ## The utility modules are the same as before
 ``` py title="colours.py"
