@@ -18,8 +18,9 @@ my_project
 
 *Notice there IS a `__init__.py` file in the `my_package` directory*  
 
-Although it might not be *necessary* to have a `__init__.py` file, it is best to 
-understand the implications. This is discussed in [Namespace Packages](four.md)
+Although it might not be *necessary* to have a `__init__.py` file, it is 
+usually best to have one. You should only omit it if you are creating a 
+[Namespace Package](four.md)
 
 ## The utility modules are the same as before
 ``` py title="colours.py"
