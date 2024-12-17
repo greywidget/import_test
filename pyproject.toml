@@ -1,14 +1,10 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [project]
-name = "imp_tst"
+name = "import_test"
 version = "0.0.1"
 authors = [
   { name="Craig Richards", email="craig@greywidget.co.uk" },
 ]
-description = "imp_tst"
+description = "import_test"
 readme = "README.md"
 requires-python = ">=3.12"
 classifiers = [
@@ -17,7 +13,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "mkdocs-material",
+    "mkdocs-material>=9.5.49",
 ]
 
 [project.optional-dependencies]
@@ -25,8 +21,8 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/greywidget/imp_tst"
-"Bug Tracker" = "https://github.com/greywidget/imp_tst/issues"
+"Homepage" = "https://github.com/greywidget/import_test"
+"Bug Tracker" = "https://github.com/greywidget/import_test/issues"
 
 [tool.mypy]
 python_version = "3.12"

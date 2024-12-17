@@ -72,7 +72,7 @@ Hello from example.bar
 ## Here's the Rub
 If we add a `__init__.py` file to `example.py` in either of our projects, the
 Python interpreter will create a *single directory* package containing only
-modules from that directory, rather than finding all appropriately named
+modules from *that* directory, rather than finding all appropriately named
 subdirectories. Lets add one. Our structure now looks like this:
 ``` bash
 ex03_namespace_packages/
@@ -84,7 +84,7 @@ ex03_namespace_packages/
         ├── __init__.py
         └── bar.py
 ```
-We have not changed anything else, to both projects are in `sys.path`. If we
+We have not changed anything else, both projects are in `sys.path`. If we
 import now:
 ``` python
 >>> from example import foo
